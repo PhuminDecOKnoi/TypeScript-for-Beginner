@@ -1,3 +1,5 @@
+<img height="320" alt="ChatGPT Image 3 พ ค  2569 23_29_06" src="https://github.com/user-attachments/assets/156d3695-1d21-4b07-b298-3e8b04e22108" />
+
 # TypeScript Course for Beginner
 
 > Beginner-friendly TypeScript course outline with simple explanations, practical code examples, and inline comments.
