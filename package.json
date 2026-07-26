@@ -1,0 +1,27 @@
+{
+  "name": "typescript-course-for-beginner",
+  "version": "2.0.0",
+  "description": "Beginner-friendly TypeScript course updated for TypeScript 7.0.",
+  "type": "module",
+  "private": false,
+  "license": "MIT",
+  "scripts": {
+    "check": "tsc --noEmit",
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/intro.js"
+  },
+  "devDependencies": {
+    "typescript": "^7.0.0"
+  },
+  "keywords": [
+    "typescript",
+    "typescript-7",
+    "beginner",
+    "frontend",
+    "react",
+    "api",
+    "ai-workflow",
+    "course"
+  ],
+  "author": "PhuminDecOKnoi"
+}
