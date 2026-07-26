@@ -1,26 +1,95 @@
-<img height="320" alt="ChatGPT Image 3 พ ค  2569 23_29_06" src="https://github.com/user-attachments/assets/156d3695-1d21-4b07-b298-3e8b04e22108" />
+<img height="320" alt="TypeScript Course for Beginner" src="https://github.com/user-attachments/assets/156d3695-1d21-4b07-b298-3e8b04e22108" />
 
 # TypeScript Course for Beginner
 
-> Beginner-friendly TypeScript course outline with simple explanations, practical code examples, and inline comments.
+> A beginner-friendly, GitHub-ready TypeScript course updated for **TypeScript 7.0**, with practical examples, modern project structure, strict typing, React/API/AI workflow preparation, and free-to-use learning content.
 
-![TypeScript](https://img.shields.io/badge/TypeScript-Beginner-blue)
-![Level](https://img.shields.io/badge/Level-Basic%20to%20Intermediate-green)
-![Focus](https://img.shields.io/badge/Focus-React%20%7C%20API%20%7C%20AI-orange)
+![TypeScript](https://img.shields.io/badge/TypeScript-7.0-blue)
+![Level](https://img.shields.io/badge/Level-Beginner%20to%20Intermediate-green)
+![Focus](https://img.shields.io/badge/Focus-Frontend%20%7C%20React%20%7C%20API%20%7C%20AI-orange)
+![License](https://img.shields.io/badge/License-MIT-lightgrey)
+![Course Version](https://img.shields.io/badge/Course-v2.0.0--ts7.0-purple)
 
 ---
 
-## Overview
+## Repository Version
 
-This course is designed for beginners who want to learn **TypeScript** in a practical, structured, and easy-to-follow way.  
-The content starts from the basics and gradually moves toward real development scenarios such as **React components**, **API calls**, and **AI-ready data structures**.
+| Field | Value |
+|---|---|
+| Course Name | `TypeScript Course for Beginner` |
+| Course Version | `v2.0.0-ts7.0-2026.07.26` |
+| Recommended TypeScript | `TypeScript 7.0+` |
+| Compatibility Track | `TypeScript 6.0+ / 7.0+` |
+| Runtime | `Node.js LTS` |
+| License | `MIT License` |
+| Status | `Updated for TypeScript 7.0` |
 
-The teaching style focuses on:
+---
 
-- simple explanations
-- short and clear examples
-- **inline comments in code**
-- practical structure that can be reused for teaching, SOPs, or team onboarding
+## TypeScript 7.0 Update
+
+TypeScript 7.0 is a major modernization of the TypeScript toolchain. This course updates the original beginner content to align with modern TypeScript learning and project usage.
+
+### What changed in this course
+
+- Added **TypeScript 7.0** as the recommended compiler version.
+- Added a modern `tsconfig.json` baseline.
+- Added strict typing habits from the beginning.
+- Updated the learning path for frontend, React, API, dashboard, and AI workflow use cases.
+- Added practical standards for GitHub portfolio and team coding practice.
+- Updated the license model to **MIT License**, allowing free use, modification, and distribution under the license terms.
+
+### Important ecosystem note
+
+TypeScript 7.0 is suitable for learning and many projects. Some tools that deeply embed the TypeScript compiler API may still need a TypeScript 6.x compatibility path until their ecosystem fully supports TypeScript 7.x.
+
+---
+
+## Installation
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Check TypeScript version:
+
+```bash
+npx tsc --version
+```
+
+Run type checking:
+
+```bash
+npm run check
+```
+
+Build the project:
+
+```bash
+npm run build
+```
+
+Run the starter example after build:
+
+```bash
+npm start
+```
+
+---
+
+## Recommended Tools
+
+| Tool | Purpose |
+|---|---|
+| Node.js LTS | JavaScript runtime and package management |
+| TypeScript 7.0+ | Type checking and compilation |
+| Visual Studio Code | Code editor with TypeScript support |
+| Vite | Modern frontend project tooling |
+| React | Component-based UI development |
+| Fetch API | API integration practice |
+| Git + GitHub | Version control and portfolio publishing |
 
 ---
 
@@ -28,15 +97,18 @@ The teaching style focuses on:
 
 By the end of this course, learners should be able to:
 
-- understand what TypeScript is and why it matters
-- use basic types correctly
-- write functions with typed parameters and return values
-- design objects with `interface` and `type`
-- use arrays, unions, optionals, and narrowing
-- split code into modules
-- build simple UI with **React + TypeScript**
-- call external APIs with typed responses
-- design simple typed structures for **AI workflows**
+- explain what TypeScript is and why it matters;
+- set up a TypeScript 7.0 project;
+- configure `tsconfig.json` for strict learning practice;
+- use basic types correctly;
+- write typed functions with clear inputs and outputs;
+- design data models with `interface` and `type`;
+- use unions, optionals, narrowing, and typed arrays;
+- organize code with modules and clean folder structure;
+- call APIs with typed responses;
+- build simple React components with TypeScript;
+- design typed request/response objects for AI workflows;
+- publish a clean GitHub portfolio repository.
 
 ---
 
@@ -44,101 +116,108 @@ By the end of this course, learners should be able to:
 
 This course is suitable for:
 
-- beginner developers
-- JavaScript learners moving into TypeScript
-- frontend learners who want to continue into React
-- internal teams building coding standards or training materials
-- instructors who need GitHub-ready teaching content
+- beginner developers;
+- JavaScript learners moving into TypeScript;
+- frontend learners preparing for React;
+- students building a GitHub portfolio;
+- trainers creating coding lessons;
+- teams creating beginner-friendly coding standards.
 
 ---
 
 ## Prerequisites
 
-Before starting, learners should have a basic understanding of:
+Before starting, learners should understand:
 
-- JavaScript syntax
-- variables and functions
-- arrays and objects
-- basic terminal or command line usage
+- basic JavaScript syntax;
+- variables and functions;
+- arrays and objects;
+- basic terminal usage;
+- basic Git/GitHub concepts.
 
 ---
 
-## Recommended Tools
+## Recommended Project Structure
 
-- **Node.js**
-- **TypeScript**
-- **Visual Studio Code**
-- **Vite**
-- **React**
-- **Fetch API**
+```text
+typescript-course-for-beginner/
+├── README.md
+├── REFERENCE.md
+├── LICENSE
+├── package.json
+├── tsconfig.json
+└── src/
+    └── intro.ts
+```
+
+For larger learning projects, extend the structure as follows:
+
+```text
+src/
+├── components/
+├── services/
+├── types/
+├── utils/
+└── main.ts
+```
 
 ---
 
 ## Course Structure
 
 | Module | Topic | Focus | Practice |
-|---|---|---|---|
-| 1 | Introduction to TypeScript | Why TypeScript, setup, compile | Hello TypeScript |
-| 2 | Basic Types | string, number, boolean, array, object | User profile |
-| 3 | Functions | typed parameters and return values | Payroll / score functions |
-| 4 | Interfaces and Type Aliases | structured data models | Employee / course models |
-| 5 | Union and Optional Types | flexible input handling | Search flow |
-| 6 | Arrays and Data Processing | map, filter, find | Typed lists |
-| 7 | Modules and File Structure | import / export | Split project files |
-| 8 | Async and API | fetch, async/await, response typing | Public API call |
-| 9 | React with TypeScript | props, state, JSX typing | UserCard component |
-| 10 | Forms and Event Handling | input, submit, loading/error state | Search UI |
-| 11 | Intro to AI-ready TypeScript | typed request/response design | Mock AI summary |
+|---:|---|---|---|
+| 1 | TypeScript 7.0 Introduction | Why TypeScript, setup, compiler, strict mode | Hello TypeScript |
+| 2 | Variables and Basic Types | `string`, `number`, `boolean`, array, object | User profile |
+| 3 | Functions and Return Types | typed parameters, return values, default values | Payroll / score functions |
+| 4 | Objects, Interfaces, and Type Aliases | reusable data models | Employee / course models |
+| 5 | Union, Optional, and Narrowing | safe flexible input | Search flow |
+| 6 | Arrays and Data Processing | `map`, `filter`, `find`, readonly patterns | Typed lists |
+| 7 | Modules and Project Structure | `import`, `export`, file separation | Utility module |
+| 8 | Async and API Integration | `fetch`, `async/await`, typed response | Public API call |
+| 9 | React with TypeScript | props, state, component typing | UserCard component |
+| 10 | Forms and Event Handling | form typing, loading/error state | Search UI |
+| 11 | AI-ready TypeScript | typed prompt/request/response design | Mock AI summary |
 | 12 | Mini Capstone | combine all modules | Starter dashboard |
 
 ---
 
-# Module 1: Introduction to TypeScript 🚀
+# Module 1: TypeScript 7.0 Introduction 🚀
 
 ## Learning Goal
 
-Learners should understand that **TypeScript is JavaScript with type syntax added on top**.  
-This helps developers catch mistakes earlier, improve editor suggestions, and make code easier to maintain.
+Learners should understand that **TypeScript is JavaScript with type syntax**. TypeScript helps developers catch mistakes earlier, improve editor suggestions, and make code easier to maintain.
 
 ## Key Concepts
 
-- What TypeScript is
-- Why TypeScript is useful
+- TypeScript as a typed superset of JavaScript
+- TypeScript 7.0 project setup
 - `tsc` compiler
-- `.ts` file
-- first typed variable
+- `.ts` files
+- strict typing habit
 
 ## Example
 
 ```ts
-// This variable must always be a string
-const courseName: string = "TypeScript for Beginner"
-
-// This variable must always be a number
+const courseName: string = "TypeScript Course for Beginner"
+const courseVersion: string = "v2.0.0-ts7.0-2026.07.26"
 const totalHours: number = 24
 
-// This function takes a string and a number
-// It returns a string
-function getCourseIntro(name: string, hours: number): string {
-  return `${name} has ${hours} hours.`
+function getCourseIntro(name: string, version: string, hours: number): string {
+  return `${name} (${version}) has ${hours} learning hours.`
 }
 
-console.log(getCourseIntro(courseName, totalHours))
+console.log(getCourseIntro(courseName, courseVersion, totalHours))
 ```
-
-## Explanation
-
-In this example, TypeScript checks the data type before the code is used.  
-If someone tries to assign a wrong type, the editor and compiler can warn immediately.
 
 ## Practice
 
-Create a file named `intro.ts` and define:
+Create `src/intro.ts` and define:
 
-- your name
-- your role
-- your study hours
-- one function to print an introduction
+- your name;
+- your role;
+- your target learning hours;
+- one function that returns a typed introduction message.
 
 ---
 
@@ -153,38 +232,33 @@ Learners should be able to declare basic types clearly and use them in real code
 - `string`
 - `number`
 - `boolean`
-- `array`
-- typed object
+- typed arrays
+- typed objects
 
 ## Example
 
 ```ts
-// A user's basic profile information
 const fullName: string = "Phumin"
 const age: number = 17
 const isStudent: boolean = true
-
-// An array of skills, and every item must be a string
 const skills: string[] = ["TypeScript", "React", "API"]
 
-// A typed object with fixed property types
-const profile: {
+type Profile = {
   name: string
   age: number
   active: boolean
-} = {
+  skills: string[]
+}
+
+const profile: Profile = {
   name: fullName,
-  age: age,
+  age,
   active: isStudent,
+  skills,
 }
 
 console.log(profile)
 ```
-
-## Explanation
-
-This module builds the foundation.  
-When beginners understand the basic types well, later topics such as interfaces, React props, and API responses become much easier.
 
 ## Practice
 
@@ -194,6 +268,7 @@ Build a typed object called `employeeProfile` with:
 - `name`
 - `department`
 - `isActive`
+- `skills`
 
 ---
 
@@ -209,12 +284,11 @@ Learners should be able to type function inputs and outputs correctly.
 - return type
 - default values
 - arrow functions
+- readable utility functions
 
 ## Example 1: Simple function
 
 ```ts
-// This function accepts two numbers
-// It returns a number
 function addScore(scoreA: number, scoreB: number): number {
   return scoreA + scoreB
 }
@@ -225,36 +299,30 @@ console.log(addScore(40, 35))
 ## Example 2: Arrow function
 
 ```ts
-// This arrow function calculates overtime pay
-// hours = overtime hours
-// rate = pay per hour
-const calculateOT = (hours: number, rate: number): number => {
+const calculateOvertimePay = (hours: number, rate: number): number => {
   return hours * rate
 }
 
-console.log(calculateOT(2, 150))
+console.log(calculateOvertimePay(2, 150))
 ```
 
 ## Example 3: Default parameter
 
 ```ts
-// If no currency is provided, "THB" will be used by default
 function formatSalary(amount: number, currency: string = "THB"): string {
-  return `${amount} ${currency}`
+  return `${amount.toLocaleString()} ${currency}`
 }
 
 console.log(formatSalary(18000))
 ```
 
-## Explanation
+## Practice
 
-Typing functions helps learners think clearly about:
+Create three typed functions:
 
-- what must go in
-- what comes out
-- what data is allowed
-
-This habit is very important when working with APIs, reusable utilities, and components.
+- `calculateTotalScore()`
+- `calculateOvertimePay()`
+- `formatCurrency()`
 
 ---
 
@@ -268,13 +336,13 @@ Learners should be able to model real data with reusable structures.
 
 - `interface`
 - `type`
-- reusable shape
-- nested object
+- reusable object shapes
+- nested object types
+- literal union types
 
 ## Example 1: Interface
 
 ```ts
-// Employee defines the exact structure required
 interface Employee {
   id: number
   name: string
@@ -282,7 +350,6 @@ interface Employee {
   isActive: boolean
 }
 
-// This object must follow the Employee structure
 const employee: Employee = {
   id: 101,
   name: "Phumin",
@@ -294,43 +361,29 @@ const employee: Employee = {
 ## Example 2: Type alias
 
 ```ts
-// A reusable type for course level
 type CourseLevel = "beginner" | "intermediate" | "advanced"
 
-// A course object uses the custom type
-const course: {
+type Course = {
   title: string
   level: CourseLevel
-} = {
+  version: string
+}
+
+const course: Course = {
   title: "TypeScript Basics",
   level: "beginner",
+  version: "v2.0.0-ts7.0-2026.07.26",
 }
 ```
 
-## Example 3: Nested object
+## Practice
 
-```ts
-interface UserAccount {
-  username: string
-  contact: {
-    email: string
-    phone: string
-  }
-}
+Create reusable types for:
 
-const account: UserAccount = {
-  username: "phumin.dev",
-  contact: {
-    email: "hello@example.com",
-    phone: "000-000-0000",
-  },
-}
-```
-
-## Explanation
-
-This module is where the course becomes more professional.  
-Instead of typing the same object shape repeatedly, learners begin to define clear reusable models.
+- `Student`
+- `Course`
+- `Lesson`
+- `Enrollment`
 
 ---
 
@@ -346,16 +399,14 @@ Learners should be able to work with flexible input safely.
 - optional property
 - narrowing
 - `typeof`
+- safe branching
 
 ## Example 1: Union type
 
 ```ts
-// SearchInput can be either a string or a number
-// This allows the function to support two search styles
- type SearchInput = string | number
+type SearchInput = string | number
 
 function searchUser(input: SearchInput): string {
-  // Narrowing: check the real type before using it
   if (typeof input === "string") {
     return `Search by keyword: ${input}`
   }
@@ -373,25 +424,27 @@ console.log(searchUser(101))
 interface Product {
   id: number
   name: string
-  description?: string // This field is optional
+  description?: string
 }
 
-const itemA: Product = {
+const keyboard: Product = {
   id: 1,
   name: "Keyboard",
 }
 
-const itemB: Product = {
+const mouse: Product = {
   id: 2,
   name: "Mouse",
   description: "Wireless mouse",
 }
 ```
 
-## Explanation
+## Practice
 
-Union and optional types make code more realistic.  
-Real projects rarely receive only one perfect input format.
+Create a `findCourse()` function that accepts either:
+
+- a numeric course ID; or
+- a text keyword.
 
 ---
 
@@ -408,6 +461,7 @@ Learners should be able to store and transform multiple records safely.
 - `map()`
 - `filter()`
 - `find()`
+- `readonly` learning habit
 
 ## Example
 
@@ -418,29 +472,28 @@ interface Task {
   done: boolean
 }
 
-const tasks: Task[] = [
+const tasks: readonly Task[] = [
   { id: 1, title: "Learn types", done: true },
   { id: 2, title: "Build component", done: false },
   { id: 3, title: "Call API", done: false },
 ]
 
-// Filter only unfinished tasks
 const pendingTasks: Task[] = tasks.filter((task) => !task.done)
-
-// Create a new array with only task titles
 const taskTitles: string[] = tasks.map((task) => task.title)
+const apiTask: Task | undefined = tasks.find((task) => task.title.includes("API"))
 
 console.log(pendingTasks)
 console.log(taskTitles)
+console.log(apiTask)
 ```
 
-## Explanation
+## Practice
 
-This module is excellent for introducing real developer thinking:
+Create a typed list of courses and produce:
 
-- keep structure clean
-- process lists safely
-- transform data without losing type information
+- all course titles;
+- beginner-level courses only;
+- the first course that contains `API` in the title.
 
 ---
 
@@ -455,153 +508,143 @@ Learners should be able to split code into files and reuse logic properly.
 - `export`
 - `import`
 - reusable utilities
-- cleaner project organization
+- clean project organization
+- domain folders
 
-## Example 1: `utils/math.ts`
+## Example 1: `src/utils/math.ts`
 
 ```ts
-// Export a reusable function from this file
 export function add(a: number, b: number): number {
   return a + b
 }
 ```
 
-## Example 2: `app.ts`
+## Example 2: `src/main.ts`
 
 ```ts
-// Import the add function from another file
 import { add } from "./utils/math"
 
 console.log(add(10, 5))
 ```
 
-## Explanation
+## Practice
 
-This is an important transition from beginner code to team-friendly code.  
-Once learners understand modules, they can organize types, services, utilities, and UI components much better.
+Create these files:
 
-## Suggested Folder Structure
-
-```bash
+```text
 src/
-├── components/
-├── services/
-├── types/
-├── utils/
+├── utils/math.ts
+├── types/course.ts
 └── main.ts
 ```
 
 ---
 
-# Module 8: Async Basics and API Calls 🌐
+# Module 8: Async and API Integration 🌐
 
 ## Learning Goal
 
-Learners should be able to fetch data from APIs and apply types to the result.
+Learners should be able to call APIs and type the response data clearly.
 
 ## Key Concepts
 
-- `Promise`
-- `async/await`
-- `fetch`
-- response typing
-- `try/catch`
+- `async`
+- `await`
+- `Promise<T>`
+- typed API response
+- error handling
 
 ## Example
 
 ```ts
-// Define the expected API response structure
-interface UserApi {
+interface UserApiResponse {
   id: number
   name: string
   email: string
 }
 
-async function getUser(): Promise<UserApi> {
-  // Send a request to the API
-  const response = await fetch("https://jsonplaceholder.typicode.com/users/1")
+async function getUser(userId: number): Promise<UserApiResponse> {
+  const response = await fetch(`https://jsonplaceholder.typicode.com/users/${userId}`)
 
-  // Convert the response into JSON
-  // Then tell TypeScript the expected shape
-  const data: UserApi = await response.json()
+  if (!response.ok) {
+    throw new Error(`API request failed with status ${response.status}`)
+  }
 
+  const data = (await response.json()) as UserApiResponse
   return data
 }
 
-async function run(): Promise<void> {
-  try {
-    const user = await getUser()
-    console.log(user.name)
-    console.log(user.email)
-  } catch (error) {
-    console.error("Failed to fetch user data")
-  }
-}
-
-run()
+getUser(1)
+  .then((user) => console.log(user))
+  .catch((error: unknown) => console.error(error))
 ```
 
-## Explanation
+## Practice
 
-This module connects TypeScript to real-world work.  
-It prepares learners for frontend apps, dashboards, admin tools, and later AI integrations.
+Create a typed function called `getPost()` that returns:
+
+- `id`
+- `title`
+- `body`
+- `userId`
 
 ---
 
-# Module 9: React + TypeScript Basics ⚛️
+# Module 9: React with TypeScript ⚛️
 
 ## Learning Goal
 
-Learners should be able to create simple typed React components.
+Learners should understand how TypeScript improves React component safety.
 
 ## Key Concepts
 
-- component props
-- JSX with TypeScript
-- typed state
-- reusable UI
+- props typing
+- component return value
+- state typing
+- reusable UI models
 
-## Example
+## Example: `UserCard.tsx`
 
 ```tsx
-// Define the props structure for the component
- type UserCardProps = {
+type UserCardProps = {
   name: string
   role: string
+  active?: boolean
 }
 
-// The component must receive props matching UserCardProps
-export function UserCard({ name, role }: UserCardProps) {
+export function UserCard({ name, role, active = true }: UserCardProps) {
   return (
-    <div>
-      {/* Display user name */}
+    <article>
       <h2>{name}</h2>
-
-      {/* Display user role */}
       <p>{role}</p>
-    </div>
+      <p>Status: {active ? "Active" : "Inactive"}</p>
+    </article>
   )
 }
 ```
 
-## Explanation
+## Practice
 
-This module should remain simple for beginners.  
-The goal is not to overload them with advanced React patterns, but to help them connect types with UI components.
+Create a `CourseCard` component with typed props:
+
+- `title`
+- `level`
+- `durationHours`
+- `published`
 
 ---
 
-# Module 10: Forms, Events, and API UI 🧾
+# Module 10: Forms and Event Handling 📝
 
 ## Learning Goal
 
-Learners should be able to create a simple typed input form and handle user actions.
+Learners should be able to type form events and state in React.
 
 ## Key Concepts
 
-- event typing
-- controlled input
-- submit handling
+- `useState<string>`
+- `React.FormEvent<HTMLFormElement>`
+- input handling
 - loading state
 - error state
 
@@ -611,21 +654,19 @@ Learners should be able to create a simple typed input form and handle user acti
 import { useState } from "react"
 
 export function SearchBox() {
-  // query stores what the user types in the input
   const [query, setQuery] = useState<string>("")
-
-  // loading tells the UI whether a request is in progress
   const [loading, setLoading] = useState<boolean>(false)
+  const [error, setError] = useState<string | null>(null)
 
-  const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
-    // Prevent page reload
+  async function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
     event.preventDefault()
-
     setLoading(true)
+    setError(null)
 
     try {
-      // Simulate async work
       console.log(`Searching for: ${query}`)
+    } catch {
+      setError("Search failed")
     } finally {
       setLoading(false)
     }
@@ -633,195 +674,194 @@ export function SearchBox() {
 
   return (
     <form onSubmit={handleSubmit}>
-      <input
-        value={query}
-        onChange={(event) => setQuery(event.target.value)}
-        placeholder="Search..."
-      />
-
-      <button type="submit">Search</button>
-
-      {loading && <p>Loading...</p>}
+      <input value={query} onChange={(event) => setQuery(event.target.value)} />
+      <button type="submit" disabled={loading}>Search</button>
+      {error && <p>{error}</p>}
     </form>
   )
 }
 ```
 
-## Explanation
+## Practice
 
-This module prepares learners for typical frontend tasks:
-
-- handling text input
-- managing UI state
-- connecting forms to API requests
+Create a form for adding a course title and course level.
 
 ---
 
-# Module 11: Intro to AI-ready TypeScript 🤖
+# Module 11: AI-ready TypeScript 🤖
 
 ## Learning Goal
 
-Learners should understand how typed request/response structures can prepare code for AI integrations.
+Learners should be able to design typed request/response structures for AI workflows.
 
 ## Key Concepts
 
-- typed request payload
-- typed response shape
-- status control
-- safe structure design
+- request model
+- response model
+- status model
+- error model
+- typed mock service
 
 ## Example
 
 ```ts
-// A typed request sent to an AI-like function
- type SummaryRequest = {
+type SummaryTone = "formal" | "friendly" | "technical"
+
+interface SummaryRequest {
   text: string
-  tone: "formal" | "friendly"
+  tone: SummaryTone
+  maxWords: number
 }
 
-// A typed response returned from the AI-like function
- type SummaryResponse = {
+interface SummaryResponse {
   success: boolean
   summary: string
+  model?: string
+  error?: string
 }
 
-function createMockSummary(data: SummaryRequest): SummaryResponse {
+function createMockSummary(request: SummaryRequest): SummaryResponse {
+  if (request.text.trim().length === 0) {
+    return {
+      success: false,
+      summary: "",
+      error: "Text is required",
+    }
+  }
+
   return {
     success: true,
-    summary: `Summary (${data.tone}): ${data.text}`,
+    summary: `Summary (${request.tone}, max ${request.maxWords} words): ${request.text}`,
+    model: "mock-ai-service",
   }
 }
-
-const result = createMockSummary({
-  text: "TypeScript helps make code safer.",
-  tone: "formal",
-})
-
-console.log(result.summary)
 ```
 
-## Explanation
+## Practice
 
-This module should stay beginner-friendly.  
-It is not about advanced AI engineering yet.  
-It is about teaching learners to structure data clearly so future AI work becomes easier.
+Design types for an AI lesson assistant:
+
+- `LessonPromptRequest`
+- `LessonPromptResponse`
+- `PromptTone`
+- `PromptStatus`
 
 ---
 
-# Module 12: Mini Capstone Project 🏁
+# Module 12: Mini Capstone Dashboard 📊
 
-## Project Name
+## Learning Goal
 
-**TypeScript Starter Dashboard**
+Learners should combine TypeScript basics into a small dashboard-style project.
 
-## Goal
+## Capstone Features
 
-Combine all the previous modules into one small project.
+Build a **TypeScript Starter Dashboard** with:
 
-## Suggested Features
+- typed course list;
+- typed task list;
+- API service module;
+- search/filter function;
+- loading and error states;
+- mock AI insight function;
+- README documentation.
 
-- typed data model
-- fetch API data
-- display data in React components
-- search/filter records
-- loading and error state
-- mock AI insight panel
+## Suggested Types
+
+```ts
+type CourseLevel = "beginner" | "intermediate" | "advanced"
+
+interface DashboardCourse {
+  id: number
+  title: string
+  level: CourseLevel
+  durationHours: number
+  completed: boolean
+}
+
+interface DashboardInsight {
+  totalCourses: number
+  completedCourses: number
+  pendingCourses: number
+  recommendation: string
+}
+```
 
 ## Suggested Output
 
-A beginner portfolio project that shows:
-
-- TypeScript basics
-- React component structure
-- API integration
-- simple typed architecture
-
----
-
-## Teaching Method Recommendation
-
-To make this course easier to teach and easier to learn:
-
-1. show the output first
-2. explain the code step by step
-3. keep examples short
-4. use **inline comments** generously
-5. add one mini practice activity at the end of each module
-6. add a checkpoint exercise every 3 modules
-
----
-
-## Suggested Repository Structure
-
-```bash
-typescript-course-beginner/
-├── README.md
-├── examples/
-│   ├── module-01-intro.ts
-│   ├── module-02-basic-types.ts
-│   ├── module-03-functions.ts
-│   ├── module-04-interfaces.ts
-│   ├── module-05-union-optional.ts
-│   ├── module-06-arrays.ts
-│   ├── module-07-modules/
-│   ├── module-08-api.ts
-│   ├── module-09-react/
-│   ├── module-10-form/
-│   └── module-11-ai-ready.ts
-└── capstone/
+```text
+TypeScript Starter Dashboard
+- Total courses: 12
+- Completed: 4
+- Pending: 8
+- AI insight: Focus on API and React modules next.
 ```
 
 ---
 
-## Example Progression Path
+## Team Coding Standard
 
-A recommended learning path for beginners:
+Recommended beginner standard:
 
-- **Week 1:** Modules 1–3
-- **Week 2:** Modules 4–6
-- **Week 3:** Modules 7–8
-- **Week 4:** Modules 9–10
-- **Week 5:** Modules 11–12
-
----
-
-## Final Summary
-
-This beginner TypeScript course is designed to be:
-
-- practical
-- teachable
-- GitHub-ready
-- easy to extend into React, API, and AI topics
-
-It is suitable for personal study, internal developer training, or structured teaching materials.
+- Use `strict` mode.
+- Prefer clear `interface` or `type` names.
+- Avoid `any` unless there is a clear reason.
+- Use `unknown` for uncertain error values.
+- Keep functions small and typed.
+- Keep API response types separate from UI component props.
+- Document examples with short inline comments.
+- Keep GitHub commits clear and readable.
 
 ---
 
-## References (APA 7)
+## Learning Roadmap
 
-Microsoft. (n.d.). *The TypeScript handbook*. TypeScript Documentation. https://www.typescriptlang.org/docs/handbook/intro.html
+| Week | Focus | Output |
+|---:|---|---|
+| 1 | TypeScript setup and basic types | `intro.ts`, typed profile |
+| 2 | Functions, objects, interfaces | typed utility functions |
+| 3 | Arrays, unions, modules | small typed data processor |
+| 4 | Async, API, React | typed API call and component |
+| 5 | AI workflow and capstone | starter dashboard |
 
-Microsoft. (n.d.). *TypeScript documentation*. https://www.typescriptlang.org/docs/handbook/
+---
 
-Microsoft. (n.d.). *TypeScript for the new programmer*. TypeScript Documentation. https://www.typescriptlang.org/docs/handbook/typescript-from-scratch.html
+## GitHub Portfolio Guidance
 
-Microsoft. (n.d.). *React*. TypeScript Documentation. https://www.typescriptlang.org/docs/handbook/react.html
+A clean TypeScript learning repo should show:
 
-Microsoft. (n.d.). *Modules*. TypeScript Documentation. https://www.typescriptlang.org/docs/handbook/2/modules.html
+- clear `README.md`;
+- version and reference file;
+- license file;
+- runnable examples;
+- strict `tsconfig.json`;
+- short commit messages;
+- practical examples that explain why TypeScript matters.
 
-Mozilla. (n.d.). *Using the Fetch API*. MDN Web Docs. https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
+---
 
-Mozilla. (n.d.). *Fetch API*. MDN Web Docs. https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
+## References
 
-React. (2025, February 14). *Sunsetting Create React App*. React Blog. https://react.dev/blog/2025/02/14/sunsetting-create-react-app
-
-React. (n.d.). *Build a React app from scratch*. React Documentation. https://react.dev/learn/build-a-react-app-from-scratch
-
-Vite. (n.d.). *Getting started*. Vite Documentation. https://vite.dev/guide/
+- [Announcing TypeScript 7.0 - Microsoft TypeScript Blog](https://devblogs.microsoft.com/typescript/announcing-typescript-7-0/)
+- [TypeScript Documentation](https://www.typescriptlang.org/docs/)
+- [GitHub Docs: Licensing a repository](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository)
 
 ---
 
 ## License
 
-This content can be adapted for educational, internal training, and documentation use.
+This project is released under the **MIT License**.
+
+The content is free to use, copy, modify, and distribute under the license terms. See [`LICENSE`](./LICENSE) for details.
+
+---
+
+## Final Summary
+
+This repository is now positioned as a modern **TypeScript 7.0 beginner course** that can be reused for:
+
+- self-learning;
+- teaching and training;
+- GitHub portfolio development;
+- team onboarding;
+- frontend / React / API / AI workflow preparation.
